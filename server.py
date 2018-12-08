@@ -18,4 +18,4 @@ def enable_cors():
 
 @app.route('/')
 def root():
-	return {'data': 'this is a test heroku server'}
+	return {'data': 'this is a test heroku server - updated'}
